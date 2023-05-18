@@ -1,0 +1,80 @@
+Computed ground state energy: -21.54960000 in 0 (s)
+Backend    : ibmq_guadalupe
+Ansatz     : EfficientSU2
+Optimizer  : NFT Maxiter: 100
+Resilience : ZNE shots: 1048 Weight: 1.6000
+Optim lev  : 1 uniform_potential: 0.0000
+{'group': 'nc-state',
+ 'hub': 'ibm-q-ncsu',
+ 'ising_model': 'heisenberg',
+ 'num_qubits': 12,
+ 'opt_level': 1,
+ 'project': 'grad-qc-class',
+ 'provider': 'ibm-q-ncsu/nc-state/grad-qc-class',
+ 'qubit_layout': [1, 2, 3, 5, 8, 11, 14, 13, 12, 10, 7, 4],
+ 'run_backend': 'ibmq_guadalupe',
+ 'shots': 1048,
+ 'transpile_backend': 'None',
+ 'uniform_interaction': 1.6,
+ 'uniform_potential': 0.0,
+ 'verbosity': 4}
+Number and type of gates in the cirucit: OrderedDict([('ry', 12), ('rz', 12), ('cx', 11)])
+Number of parameters in the circuit: 24
+Number of qubits in the circuit: 12
+1.6 * ZZIIIIIIIIII
++ 1.6 * IZZIIIIIIIII
++ 1.6 * IIZZIIIIIIII
++ 1.6 * IIIZZIIIIIII
++ 1.6 * IIIIZZIIIIII
++ 1.6 * IIIIIZZIIIII
++ 1.6 * IIIIIIZZIIII
++ 1.6 * IIIIIIIZZIII
++ 1.6 * IIIIIIIIZZII
++ 1.6 * IIIIIIIIIZZI
++ 1.6 * ZIIIIIIIIIIZ
++ 1.6 * IIIIIIIIIIZZ
++ 1.6 * YYIIIIIIIIII
++ 1.6 * IYYIIIIIIIII
++ 1.6 * IIYYIIIIIIII
++ 1.6 * IIIYYIIIIIII
++ 1.6 * IIIIYYIIIIII
++ 1.6 * IIIIIYYIIIII
++ 1.6 * IIIIIIYYIIII
++ 1.6 * IIIIIIIYYIII
++ 1.6 * IIIIIIIIYYII
++ 1.6 * IIIIIIIIIYYI
++ 1.6 * YIIIIIIIIIIY
++ 1.6 * IIIIIIIIIIYY
++ 1.6 * XXIIIIIIIIII
++ 1.6 * IXXIIIIIIIII
++ 1.6 * IIXXIIIIIIII
++ 1.6 * IIIXXIIIIIII
++ 1.6 * IIIIXXIIIIII
++ 1.6 * IIIIIXXIIIII
++ 1.6 * IIIIIIXXIIII
++ 1.6 * IIIIIIIXXIII
++ 1.6 * IIIIIIIIXXII
++ 1.6 * IIIIIIIIIXXI
++ 1.6 * XIIIIIIIIIIX
++ 1.6 * IIIIIIIIIIXX
+Execution time (s): 2423.13
+{   'aux_operator_eigenvalues': None,
+    'cost_function_evals': 100,
+    'eigenstate': None,
+    'eigenvalue': -21.51603053435115,
+    'optimal_circuit': None,
+    'optimal_parameters': array([ 2.18598044,  4.00234459, -0.48376728,  3.74635634,  4.04470314,
+       -0.5516789 ,  3.82792673,  5.45347269, -0.53198156,  3.49067647,
+        4.40203212,  0.00707876,  2.99953004,  0.17782611, -0.52102849,
+        0.28501648,  0.02925208, -0.13076009,  0.31807283, -0.01220259,
+       -0.29247847,  0.73029775,  0.40017903,  0.91877369]),
+    'optimal_point': None,
+    'optimal_value': None,
+    'optimizer_evals': None,
+    'optimizer_result': None,
+    'optimizer_time': None}
+Computed ground state energy: -21.51603053
+Result eigen value: -21.51603053
+Computed ground state energy: -21.51603053
+Expected ground state energy: -21.54960000
+Relative error: 0.15577767 %

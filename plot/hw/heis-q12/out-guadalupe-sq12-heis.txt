@@ -1,0 +1,116 @@
+Computed ground state energy: -29.47290000 in 1 (s)
+Backend    : ibmq_guadalupe
+Ansatz     : EfficientSU2
+Optimizer  : NFT Maxiter: 100
+Resilience : ZNE shots: 1048 Weight: 1.6000
+Optim lev  : 1 uniform_potential: 0.0000
+{'group': 'nc-state',
+ 'hub': 'ibm-q-ncsu',
+ 'ising_model': 'heisenberg',
+ 'num_qubits': 12,
+ 'opt_level': 1,
+ 'project': 'grad-qc-class',
+ 'provider': 'ibm-q-ncsu/nc-state/grad-qc-class',
+ 'qubit_layout': [1, 2, 3, 5, 8, 11, 14, 13, 12, 10, 7, 4],
+ 'run_backend': 'ibmq_guadalupe',
+ 'shots': 1048,
+ 'transpile_backend': 'None',
+ 'uniform_interaction': 1.6,
+ 'uniform_potential': 0.0,
+ 'verbosity': 4}
+Number and type of gates in the cirucit: OrderedDict([('ry', 12), ('rz', 12), ('cx', 11)])
+Number of parameters in the circuit: 24
+Number of qubits in the circuit: 12
+1.6 * ZZIIIIIIIIII
++ 1.6 * ZIZIIIIIIIII
++ 1.6 * IZZIIIIIIIII
++ 1.6 * ZIIZIIIIIIII
++ 1.6 * IZIIZIIIIIII
++ 1.6 * IIIZZIIIIIII
++ 1.6 * IIZIIZIIIIII
++ 1.6 * IIIZIZIIIIII
++ 1.6 * IIIIZZIIIIII
++ 1.6 * IIIZIIZIIIII
++ 1.6 * IIIIZIIZIIII
++ 1.6 * IIIIIIZZIIII
++ 1.6 * IIIIIZIIZIII
++ 1.6 * IIIIIIZIZIII
++ 1.6 * IIIIIIIZZIII
++ 1.6 * ZIIIIIIIIZII
++ 1.6 * IIIIIIZIIZII
++ 1.6 * IZIIIIIIIIZI
++ 1.6 * IIIIIIIZIIZI
++ 1.6 * IIIIIIIIIZZI
++ 1.6 * IIZIIIIIIIIZ
++ 1.6 * IIIIIIIIZIIZ
++ 1.6 * IIIIIIIIIZIZ
++ 1.6 * IIIIIIIIIIZZ
++ 1.6 * YYIIIIIIIIII
++ 1.6 * YIYIIIIIIIII
++ 1.6 * IYYIIIIIIIII
++ 1.6 * YIIYIIIIIIII
++ 1.6 * IYIIYIIIIIII
++ 1.6 * IIIYYIIIIIII
++ 1.6 * IIYIIYIIIIII
++ 1.6 * IIIYIYIIIIII
++ 1.6 * IIIIYYIIIIII
++ 1.6 * IIIYIIYIIIII
++ 1.6 * IIIIYIIYIIII
++ 1.6 * IIIIIIYYIIII
++ 1.6 * IIIIIYIIYIII
++ 1.6 * IIIIIIYIYIII
++ 1.6 * IIIIIIIYYIII
++ 1.6 * YIIIIIIIIYII
++ 1.6 * IIIIIIYIIYII
++ 1.6 * IYIIIIIIIIYI
++ 1.6 * IIIIIIIYIIYI
++ 1.6 * IIIIIIIIIYYI
++ 1.6 * IIYIIIIIIIIY
++ 1.6 * IIIIIIIIYIIY
++ 1.6 * IIIIIIIIIYIY
++ 1.6 * IIIIIIIIIIYY
++ 1.6 * XXIIIIIIIIII
++ 1.6 * XIXIIIIIIIII
++ 1.6 * IXXIIIIIIIII
++ 1.6 * XIIXIIIIIIII
++ 1.6 * IXIIXIIIIIII
++ 1.6 * IIIXXIIIIIII
++ 1.6 * IIXIIXIIIIII
++ 1.6 * IIIXIXIIIIII
++ 1.6 * IIIIXXIIIIII
++ 1.6 * IIIXIIXIIIII
++ 1.6 * IIIIXIIXIIII
++ 1.6 * IIIIIIXXIIII
++ 1.6 * IIIIIXIIXIII
++ 1.6 * IIIIIIXIXIII
++ 1.6 * IIIIIIIXXIII
++ 1.6 * XIIIIIIIIXII
++ 1.6 * IIIIIIXIIXII
++ 1.6 * IXIIIIIIIIXI
++ 1.6 * IIIIIIIXIIXI
++ 1.6 * IIIIIIIIIXXI
++ 1.6 * IIXIIIIIIIIX
++ 1.6 * IIIIIIIIXIIX
++ 1.6 * IIIIIIIIIXIX
++ 1.6 * IIIIIIIIIIXX
+Execution time (s): 5152.87
+{   'aux_operator_eigenvalues': None,
+    'cost_function_evals': 100,
+    'eigenstate': None,
+    'eigenvalue': -29.740864558027162,
+    'optimal_circuit': None,
+    'optimal_parameters': array([14.38481786,  9.65653042,  5.84599313,  9.55861466, 11.83884465,
+        6.25055897,  9.83164844,  9.89867772,  6.39601527,  9.50795102,
+        5.44700928,  6.30592862,  6.31101653,  7.23038663,  7.10503053,
+       10.53179741,  6.47694019, 11.94323845,  7.618361  ,  6.24021262,
+        6.71206731,  8.77029762,  6.74985356,  6.32636435]),
+    'optimal_point': None,
+    'optimal_value': None,
+    'optimizer_evals': None,
+    'optimizer_result': None,
+    'optimizer_time': None}
+Computed ground state energy: -29.74086456
+Result eigen value: -29.74086456
+Computed ground state energy: -29.74086456
+Expected ground state energy: -29.47290000
+Relative error: 0.90918966 %
